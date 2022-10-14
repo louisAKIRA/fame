@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443713076251",
+    "project_id": "fame-decc3",
+    "storage_bucket": "fame-decc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443713076251:android:a0b415f7b5ac0e26474cbe",
+        "android_client_info": {
+          "package_name": "com.example.l_l"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443713076251-9q87a0lu4iv7oga1hedi7qo3dr54sgul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzO1p1nbNlT77cWUlDejrIy7mwhrQW734"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443713076251-9q87a0lu4iv7oga1hedi7qo3dr54sgul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
