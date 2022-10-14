@@ -19,7 +19,13 @@ class HomeScreen extends StatelessWidget {
                         shrinkWrap: true,
                         itemBuilder: (context, i) {
                           var data = snapshot.data!.docs[i];
-                          return Text(data['Name']);
+                          return Card(
+                            child: ListTile(
+                              title: Text(data['Name']),
+                              subtitle: Text(data['Tell']),
+                              trailing: Text(data['address']),
+                            ),
+                          );
                         });
                   } else {
                     return CircularProgressIndicator();
