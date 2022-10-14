@@ -10,14 +10,14 @@ class HomeScreen extends StatelessWidget {
           children: [
             StreamBuilder(
                 stream:
-                    FirebaseFirestore.instance.collection("user").snapshots(),
+                    FirebaseFirestore.instance.collection("User").snapshots(),
                 builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
                   if (snapshot.hasData) {
                     return ListView.builder(
                         itemCount: snapshot.data!.docs.length,
                         itemBuilder: (context, i) {
                           var data = snapshot.data!.docs[i];
-                          return Text(data['ที่อยู่']);
+                          return Text(data['Name']);
                         });
                   } else {
                     return CircularProgressIndicator();
