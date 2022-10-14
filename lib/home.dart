@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
                   if (snapshot.hasData) {
                     return ListView.builder(
                         itemCount: snapshot.data!.docs.length,
+                        shrinkWrap: true,
                         itemBuilder: (context, i) {
                           var data = snapshot.data!.docs[i];
                           return Text(data['Name']);
